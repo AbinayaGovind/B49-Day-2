@@ -1,0 +1,13 @@
+Question : Difference between Document and Window object.
+Answer  :  Document Object:
+                   1. Its the web page loaded in the browser.
+                   2.Its part of browser and document object.
+                   3. Properties of document objecct such as title, body, cookies etc can be accessed by the syntax : document.property name 
+                       Example: document.title (Returns the title name of the document)
+                   4. It can also accessed by the window object through the syntax : window.document.title  
+                  5. Methods like CreateElement (), CreateEvent(), geetElementById(), getElementByclassname () and etc are accessed by syntax: document.getElementById() 
+Window object:
+            1. Its the window frame or browser that displays the content of the HTML page, first object loaded in the browser.
+            2. Properties such as console, length, fullscreen, closed and etc are accessed by Syntax : window.propertyname
+                  Example : window.innerHeight (Returns the height of the content area of the browser)
+            
